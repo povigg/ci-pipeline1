@@ -10,7 +10,19 @@ Developer will push code changes to GitHub. Jenkings will detect code changes an
 
 Start VMs using vagrant file
 
-## Jenkins Plugins
+## Jenkins
 
 Install Nexus Artifact Uploader, SonarQube Scanner, Build Timestamp, Pipeline Maven Integration and Pipeline Utility Steps plugins in Jenkins
+
+Install JDK and Maven
+
+JDK: Name - OracleJDK8
+JAVA_HOME - /usr/lib/jvm/java-8-openjdk-amd64
+
+Maven: NAME - MAVEN3
+
+SonarQube: Name - sonar4.8
+Integrate SonarQube server in Jenkins 'Configure System'. Check 'env. variables', add SonarQ server
+
+## Write Jenkins Pipeline
 
